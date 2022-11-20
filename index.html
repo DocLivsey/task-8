@@ -1,20 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Задание 8</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://carrier.formcarry.com/js/v1.js" defer></script>
+  <script src="./script.js" defer></script>
 </head>
+
 <body>
-  <form action="">
-    <input type="name" placeholder="Введите имя">
-    <br>
-    <input type="email" placeholder="Введите почту">
-    <br>
-    <textarea></textarea>
-    <br>
-    <input type="checkbox">Cогласие с политикой обработки персональных данных
-  </form>
+  <div id="start">Купить слона</div>
+  <div id="popupwrapper">
+    <div id="popup">
+      <div id="exit"></div>
+      <form id="my-form" accept-charset="UTF-8" >
+        <span id="elephant" class="titlefield">А ТЫ КУПИ СЛОНА</span>
+        <div>
+          <span class="titlefield">Имя</span><br>
+          <input class="field" type="text" name="name" placeholder="Введите ваше имя" required><br>
+        </div>
+        <div>
+          <span class="titlefield">Почта</span><br>
+          <input class="field" type="email" name="email" placeholder="Введите вашу почту" required><br>
+        </div>
+        <div>
+          <span class="titlefield">Сообщение</span><br>
+          <textarea placeholder="Купи слона" name="message" required></textarea><br>
+        </div>
+        <div>
+          <input type="checkbox" name="agree" required>
+          <span class="titlefield">Согласие с политикой обработки персональных данных</span>
+        </div>
+        <div class="but">
+          <input id="submit" type="submit">
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
