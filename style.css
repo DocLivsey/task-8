@@ -38,7 +38,7 @@ form{
     flex-direction: column;
 }
 form>div{
-    margin: 10px 0;
+    margin: 10px 10px;
 }
 form textarea{
     resize:none;
@@ -88,8 +88,8 @@ form textarea{
 .but{
     display:flex;
     height: 200px;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: baseline;
+    align-items: center;
 }
 /* #exit{
     background-color: #ff0000;
